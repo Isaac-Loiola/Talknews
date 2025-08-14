@@ -80,10 +80,11 @@ body{
 }
 
 .news-initial-container{
-    width: 80%;
+    width: 70%;
     display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .image-initial{
@@ -93,6 +94,7 @@ body{
 .news-description-initial-main{
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .title-initial{
@@ -107,6 +109,8 @@ body{
     color: #06070E;
     font-size: 15px;
     margin-bottom: 15px;
+    font-family: 'lato';
+    font-weight: 600;
 }
 
 
@@ -123,5 +127,20 @@ body{
 }
 
 .author{
+    font-style: 'talo';
     color: #555555;
+}
+
+.featured-news{
+    width: 70%;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.type-news{
+    margin-right: 25px;
+    font-family: 'lato';
 }
