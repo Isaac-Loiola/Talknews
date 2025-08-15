@@ -140,6 +140,7 @@ body{
     align-items: center;
     box-sizing: border-box;
     background-color: #E3170A;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
 }
 
 .type-news{
