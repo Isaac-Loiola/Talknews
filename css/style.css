@@ -267,6 +267,89 @@ body{
     cursor: pointer;
     background-color: #FDFFFC;
     color: #E3170A;
-    
+}
 
+.overview-news{
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+
+.section-news-overview{
+    max-width: 100%;
+    background-color: #FDFFFC;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    padding:15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.image-news-overview{
+    height: 150px;
+    margin-right: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.description-news-overvie{
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.subtitle-news-overview{
+    width: 400px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.paragraph-news-overview{
+    align-self: center;
+    font-size: 15px;
+    color: #06070E;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.footer{
+    background-color: #06070E;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-white{
+    width: 60px;
+}
+
+.policies-paragraph, .contact-paragraph{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    color: #FDFFFC;
+    font-weight: 600;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+.contact-paragraph{
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
 }
