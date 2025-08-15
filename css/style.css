@@ -132,15 +132,140 @@ body{
 }
 
 .featured-news{
+    margin-top: 30px;
     width: 80%;
     display: flex;
     padding: 15px;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    background-color: #E3170A;
 }
 
 .type-news{
+    padding: 10px;
     margin-right: 25px;
     font-family: 'lato';
+    font-weight: 600;
+    background-color: #FDFFFC;
+    color: #E3170A;
+}
+
+.paragraph-featured-news{
+    font-weight: 500;
+    color: #FDFFFC;
+}
+
+.news-middle-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-middle-news{
+    width: 100%;
+    margin: 40px 0 10px 0;
+    padding: 15px 0;
+    background-color: #FDFFFC;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-middle{
+    text-decoration: none;
+    font-family: 'Special Gothic Expanded One';
+    color: #06070E;
+    font-size: 15px;
+    font-weight: 300;
+    
+    transition: transform 0.3s ease;
+}
+
+.menu-middle:hover{
+    transform: scale(1.01);
+}
+
+.news-middle{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.section-news{
+    width: 500px;
+    background-color: #FDFFFC;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 0.2s ease;
+}
+
+.section-news:hover{
+    transform: scale(1.01);
+}
+
+.image-middle-news{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 20px;
+}
+
+.subtitle-middle-news{
+    width: 90%;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #06070E;
+    margin-bottom: 10px;
+}
+
+.paragraph-middle-news{
+    width: 90%;
+    align-self: center;
+    font-size: 14px;
+    color: #06070E;
+    margin-bottom: 15px;
+}
+.data-news{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.view-more{
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.anchor-viewmore{
+    text-decoration: none;
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+    font-family: 'lato';
+    font-weight: 600;
+    background-color: #E3170A;
+    color: #FDFFFC;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.anchor-viewmore:hover{
+    cursor: pointer;
+    background-color: #FDFFFC;
+    color: #E3170A;
+    
+
 }
